@@ -58,6 +58,6 @@ Each character in Edgecode maps to a specific value which will be referred to la
 (also, this is my first time writing something like this Specification, I will probably improve it later on.)
 </sup></sup></sub>
 
-<sub><sup><sup><sub><sup><sub><sup>
+<sub><sup><sup><sub><sup><sub><sup><sub><sup><sub><sup>
 (I also referenced the bottom specification for this.)
-</sup></sup></sub></sup></sup></sup></sup>
+</sup></sup></sub></sup></sup></sup></sup></sup></sup></sup></sup>
