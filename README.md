@@ -32,7 +32,7 @@ Each character in Edgecode maps to a specific value which will be referred to la
 ## Notes on Encoding
 - The input stream must be valid UTF-8 encoded text. Encoding invalid UTF-8 is illegal!
 
-- The output will be a sequence of blocks of characters which map to certain values ([see table above](https://github.com/SirShine/edgecoding-specification/blob/main/README.md#character-values)) seperated by the [Block Seperation](https://github.com/SirShine/edgecoding-specification/blob/main/README.md#character-values#special-characters) character, ie.
+- The output will be a sequence of blocks of characters which map to certain values ([see table above](https://github.com/SirShine/edgecoding-specification/blob/main/README.md#character-values)) seperated by the [Block Seperation](https://github.com/SirShine/edgecoding-specification/blob/main/README.md#special-characters) character, ie.
 
 ```
 ᛤᛤᚸ⚸ᛤᛤᚸᚸᚸᚸᚻ⚸ᛤᛤᛤᚤᚤᚤᚤ⚸ᛤᛤᛤᚤᚤᚤᚤ⚸ᛤᛤᛤᚻᚤᚤ⚸ᚸᚸᚸᚸ⚸ᛤᛤᚸᚸᚻᚤᚤ⚸ᛤᛤᛤᚻᚤᚤ⚸ᛤᛤᛤᚸᚤᚤ⚸ᛤᛤᛤᚤᚤᚤᚤ⚸ᛤᛤᚸᚸᚸᚸᚤᚤᚤᚤ⚸ᚸᚸᚸᚸᚤ⚸
@@ -44,9 +44,9 @@ Each character in Edgecode maps to a specific value which will be referred to la
 
     - Please note that value characters within blocks should be ordered in descending order! Not ordering them descendingly usually doesn't affect the output from decoders in any way, it can cause performance issues and depending on the decoder, might be read is invalid edgecode and therefore might not work with some decoders.
 
-- Blocks of value characters must be followed by a [Block Seperator](https://github.com/SirShine/edgecoding-specification/blob/main/README.md#character-values#special-characters), `ᛤᛤᚸ` is illegal but `ᛤᛤᚸ⚸` is valid.
+- Blocks of value characters must be followed by a [Block Seperator](https://github.com/SirShine/edgecoding-specification/blob/main/README.md#special-characters), `ᛤᛤᚸ` is illegal but `ᛤᛤᚸ⚸` is valid.
 
-- The null value counts as a block and therefore must be followed by a [Block Seperator](https://github.com/SirShine/edgecoding-specification/blob/main/README.md#character-values#special-characters), `ᛤᛤᚸ⚸ᛗ` is illegal but `ᛤᛤᚸ⚸ᛗ⚸` is valid.
+- The null value counts as a block and therefore must be followed by a [Block Seperator](https://github.com/SirShine/edgecoding-specification/blob/main/README.md#special-characters), `ᛤᛤᚸ⚸ᛗ` is illegal but `ᛤᛤᚸ⚸ᛗ⚸` is valid.
 
 -----
 
