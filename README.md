@@ -4,7 +4,7 @@
 Edgecode is a somewhat simple encoding format that is supposed to be hard to get behind for people who don't know about this Specification.
 It is inspired by the [Bottom encoding format](https://github.com/bottom-software-foundation/spec/blob/main/README.md).
 
-**DO NOT USE THIS TO ENCODE ANY IMPORTANT DATA! IT'S NOT SECURE AT ALL! THIS IS MAINLY MADE AS A JOKE!**
+**DO NOT USE THIS TO ENCODE ANY IMPORTANT DATA! IT'S NOT SECURE AT ALL AS IT'S AN ENCODING FORMAT, NOT A HASHING ALGORITHM, THIS IS ALSO MAINLY MADE AS A JOKE!**
 
 ## Character Table
 Each character in Edgecode maps to a specific value which will be referred to later.
