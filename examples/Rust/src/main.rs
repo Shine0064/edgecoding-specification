@@ -115,6 +115,6 @@ fn main() {
     let encoded: String = encode("Hello World!");
     let decoded: String = decode(&encoded);
     
-    println!("{}", encoded);
-    println!("{}", decoded);
+    println!("Encoded:\t{}", encoded);
+    println!("Decoded:\t{}", decoded);
 }
