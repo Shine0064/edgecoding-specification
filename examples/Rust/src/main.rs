@@ -65,7 +65,7 @@ fn octal_to_decimal(oct: u32) -> u32 {
     let mut v2: Vec<u32> = Vec::new();
     let mut ret: u32 = 0;
 
-    for i in 0..=v.len()-1 {
+    for i in 0..v.len() {
         let n: u32 = parse_int(v[i].to_string().as_str()).mul((8 as u32).pow((v.len()-1-i).try_into().unwrap()));
         v2.insert(i, n);
     }
