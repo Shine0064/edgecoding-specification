@@ -15,6 +15,7 @@ module.exports.edgeEncode = function(str) {
         let v = parseInt(charCode.toString(8));
 
         if (v == 0) {
+            
             returnArr.push("\u16D7");
             continue;
 
